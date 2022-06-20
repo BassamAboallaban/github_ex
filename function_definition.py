@@ -5,8 +5,7 @@ def multiply_the_2_numbers(a,b):
 
 
 # Function that we can use to calculate compound interest
-def compound_interest(base, int_rate, years=10):
+def compound_interest(base, int_rate, years=5):
     multiplier = 1+int_rate
-    final = base * multiplier ** years
-    return(final)
-
+    amount_ci = base * multiplier ** years
+    return(amount_ci)
