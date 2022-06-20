@@ -8,4 +8,4 @@ def multiply_a_number_by_two(n):
 def compound_interest(base, int_rate, years=5):
     multiplier = 1+int_rate
     amount_ci = base * multiplier ** years
-    return(final)
+    return(amount_ci)
