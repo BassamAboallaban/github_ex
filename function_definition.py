@@ -1,6 +1,6 @@
-# Simple function that we can use to multiply a number by two
-def multiply_a_number_by_two(n):
-    new_var = n * 2
+# Simple function that we can use to multiply two input numbers 
+def multiply_the_2_numbers(a,b):
+    new_var = a * b
     return(new_var)
 
 
@@ -9,3 +9,4 @@ def compound_interest(base, int_rate, years=10):
     multiplier = 1+int_rate
     final = base * multiplier ** years
     return(final)
+
