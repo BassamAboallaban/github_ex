@@ -1,6 +1,6 @@
-def func(a, b, c):
-	return(a * b * c)
+def func(x, y, z):
+	return(x * y * z)
 
-var_1 = (1, 5, 7)
+var_1 = (8, 8, 8)
 
 func(var_1)
